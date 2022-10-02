@@ -1,0 +1,94 @@
+header{
+    background-color: rgb(255, 245, 47);
+    height: 4.5em;
+}
+
+ul{
+ position: relative;
+bottom: 4em;
+    margin-left: 2em;
+  
+    display: flex;
+
+}
+li{
+  margin-left: 2em;
+  list-style-type: none;
+
+}
+
+a{
+ text-decoration: none;
+}
+
+li:hover{
+    color: rgb(98, 246, 25);
+
+}
+/* breadcrumbs*/
+ol{
+ 
+    display: flex;
+}
+/* 5*/
+.fiche{
+
+    margin: 5px;
+   width: 200PX;
+    border: 2PX solid greenyellow;
+
+
+}
+.fiche>img{
+    text-align: center;
+
+}
+.lesFiche{
+    text-align: center;
+    display: flex;
+}
+p{
+    
+    margin: 0;
+    margin-left: 5px;
+    display: inline-block;
+}
+.ficheParagraph{
+    text-align: left;
+
+}
+.fiche image{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.youSaving{
+color: green;
+}
+section{
+    margin: 10px;
+}
+
+.logo{
+    display: inline-block;
+    width: 70px;
+    height: 70PX;
+}
+.footerLogo{
+margin-top: 10em;
+    width: 35PX;
+
+}
+.footerParagraph{ 
+display: inline-block;
+position: relative;
+bottom: 20px;
+
+
+}
+.icon-facebook{
+    color: aqua;
+}
+span{
+    margin-left: 100px;
+}
