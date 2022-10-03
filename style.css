@@ -1,94 +1,112 @@
-header{
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+ul {
     background-color: rgb(255, 245, 47);
-    height: 4.5em;
-}
+  bottom: 4em;
+  margin-left: 2em;
 
-ul{
- position: relative;
-bottom: 4em;
-    margin-left: 2em;
-  
-    display: flex;
-
+  display: flex;
 }
-li{
+li {
   margin-left: 2em;
   list-style-type: none;
-
 }
 
-a{
- text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-li:hover{
-    color: rgb(98, 246, 25);
-
+li:hover {
+  color: rgb(98, 246, 25);
 }
 /* breadcrumbs*/
-ol{
- 
-    display: flex;
+ol {
+  display: flex;
 }
 /* 5*/
-.fiche{
-
-    margin: 5px;
-   width: 200PX;
-    border: 2PX solid greenyellow;
-
-
+.fiche {
+  margin: 5px;
+  width: 200px;
+  border: 2px solid rgb(78, 47, 255);
 }
-.fiche>img{
-    text-align: center;
+.fiche > img {
+  text-align: center;
+}
+.lesFiche {
+  text-align: center;
+  display: flex;
 
-}
-.lesFiche{
-    text-align: center;
-    display: flex;
-}
-p{
-    
-    margin: 0;
-    margin-left: 5px;
-    display: inline-block;
-}
-.ficheParagraph{
-    text-align: left;
+  flex-wrap: wrap;
 
 }
-.fiche image{
-    margin-left: auto;
-    margin-right: auto;
-    
+p {
+  margin: 0;
+  margin-left: 5px;
+  display: inline-block;
 }
-.youSaving{
-color: green;
+.ficheParagraph {
+  text-align: left;
 }
-section{
-    margin: 10px;
+.fiche image {
+  margin-left: auto;
+  margin-right: auto;
+}
+.youSaving {
+  color: green;
+}
+section {
+  margin: 10px;
 }
 
-.logo{
-    display: inline-block;
-    width: 70px;
-    height: 70PX;
-}
-.footerLogo{
-margin-top: 10em;
-    width: 35PX;
+.logo {
 
+  width: 70px;
+  height: 70px;
 }
-.footerParagraph{ 
-display: inline-block;
-position: relative;
-bottom: 20px;
+.footerLogo {
+  margin-top: 10em;
+  width: 35px;
+}
+.footerParagraph {
+  display: inline-block;
+  position: relative;
+  bottom: 20px;
+}
+.icon-facebook {
+  color: aqua;
+}
+span {
+  margin-left: 100px;
+}
+
+@media (max-width:580px) {
+  li{
+    font-size: 0.9em;
+    padding: 0;
+  }
+  ol,ul{
+    padding: 0;
+  }
+  ol{
+    margin-top: 0px;
+  }
+  ul{
+    margin-bottom: 0px;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  h1,p{
+    font-size: 1em;
+  }
 
 
-}
-.icon-facebook{
-    color: aqua;
-}
-span{
-    margin-left: 100px;
+
+
+  
 }
