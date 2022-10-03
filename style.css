@@ -45,6 +45,8 @@ a {
 }
 
 
+
+
 /* breadcrumbs*/
 nav>li>a::after {
 
@@ -59,6 +61,7 @@ ol{
 
 /* 5*/
 .fiche {
+ 
       background: rgba( 74, 144, 226, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 6px );
@@ -71,6 +74,10 @@ ol{
       border: 2px solid rgb(78, 47, 255);
     }
 .fiche > img {
+ 
+  max-width: 100%;
+  border-radius: 6px;
+  min-height: 70%;
   text-align: center;
 }
 .lesFiche {
