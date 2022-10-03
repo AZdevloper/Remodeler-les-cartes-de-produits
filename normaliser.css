@@ -38,6 +38,7 @@
    */
   
   h1 {
+  background: linear-gradient(to right, rgb(156, 163, 227), rgb(0, 78, 146));
     font-size: 2em;
     margin: 0.67em 0;
   }
