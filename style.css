@@ -6,8 +6,8 @@ body{
 }
 header {
   margin: 0px;
-  background: linear-gradient(to right, rgb(156, 163, 227), rgb(0, 78, 146));
-
+  background: #94B3FD;
+padding: 22px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -22,26 +22,42 @@ ul {
   display: flex;
 }
 li {
-  margin: 0px;
+ padding: 20px;
+ margin-top: 1em;
+ border-radius: .7em;
+
   margin-left: 2em;
   list-style-type: none;
+  background-color: #B983FF;
+}
+li:hover{
+  background-color: #94B3FD;
+  color: #B983FF;
+
+}
+
+li a:hover {
+  color: #B983FF;
 }
 
 a {
+  color:#94DAFF;
   text-decoration: none;
 }
 
-li:hover {
-  color: rgb(98, 246, 25);
-}
+
 /* breadcrumbs*/
+nav>li>a::after {
+
+}
 nav {
-  background: linear-gradient(to right, rgb(156, 163, 227), rgb(0, 78, 146));
+  background-color:#B983FF ;
 }
 ol{
   display: flex;
   margin: 0;
 }
+
 /* 5*/
 .fiche {
   background: linear-gradient(to right, rgb(156, 163, 227), rgb(0, 78, 146));
@@ -78,6 +94,7 @@ p {
   color: green;
 }
 section {
+  background-color: #94B3FD;
   margin: 0;
 }
 
@@ -139,6 +156,7 @@ span {
 h1{
     margin: 0;
     color: rgb(191, 191, 220);
+    
     font-size: 1em;
   }
 
