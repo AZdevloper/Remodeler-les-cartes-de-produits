@@ -78,9 +78,10 @@ ol{
     }
 .fiche > img {
  
-  max-width: 100%;
+  width: 100%;
   border-radius: 6px;
-  min-height: 70%;
+  height: 70%;
+ 
   text-align: center;
 }
 .lesFiche {
