@@ -114,7 +114,7 @@ section {
 }
 
 .logo {
-
+border-radius: 50%;
   width: 70px;
   height: 70px;
 }
@@ -126,16 +126,21 @@ footer{
   -webkit-backdrop-filter: blur( 6px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  display: flex;
+  flex-wrap: nowrap;
+  
 }
 
 .footerLogo {
-  margin-top: 10em;
-  width: 35px;
+height:50px ;
+  width: 50px;
+  margin: 2em 10px;
+  border-radius: 50%;
 }
 .footerParagraph {
   display: inline-block;
-  position: relative;
-  bottom: 20px;
+  margin: 2.6em  0.5em 0 0;
+
 }
 .icon-facebook {
   color: aqua;
