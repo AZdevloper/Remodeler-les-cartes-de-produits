@@ -70,6 +70,11 @@ ol{
     margin: 5px;
       width: 250px;
       border: 2px solid rgb(78, 47, 255);
+      transition: 1s all ;
+      
+    }
+    .fiche:hover{
+      transform: scale(1,1);
     }
     .h1fiche{
       
